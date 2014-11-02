@@ -1,0 +1,45 @@
+/* My little test for a seperat .css-file */
+
+#clock {
+    color: white;
+}
+
+#Me {
+    width: 50%;
+}
+
+.UpperPic {  /* Image placement and size */
+	background: url("http://www.doshikai.org/img/header2.jpg");
+	background-size: 100%;
+	background-color: black;
+	background-repeat: no-repeat;
+	height: 200px;
+}
+
+.UpperPic h1 {  /* Headline size and position */
+	position: relative;
+	top: 50%;
+	color: white;
+	font-size: 70px;
+	font-family: Verdana;
+}
+
+.jumbotron {
+	text-align: center;
+	background: url("http://www.aikidoseiki.com/images/galleryArt/kendo/kendo_artwork130.jpg");
+	background-size: 100%;
+	background-color: black;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+	
+.jumbotron p {
+	color: white; font-size: 35px;
+	font-family: serif;
+}
+
+footer:hover
+{ 
+  text-decoration: none; 
+  color: #cc3300; 
+}
